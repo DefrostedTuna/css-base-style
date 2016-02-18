@@ -1,0 +1,327 @@
+@import "../../../_vendor/bourbon/bourbon"
+@import "../../../src/uptilt/uptilt"
+
+@lost gutter 0.5em
+
+body
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/concrete_seamless.png")
+.root-body
+  margin: auto
+  max-width: 80em
+  padding: 0.5em
+.more
+  padding: 3em
+  text-align: center
+
+.paragraph-max-width
+  max-width: $ut-paragraph-width-readable
+
+//========================
+// Custom modules styling
+
+// Button setup
+.ut-button
+  +ut-button-setup()
+
+.custom-module-header
+  text-align: center
+
+.awesome-form
+  +awesome-form(tint(#477DCA, 25%), block)
+
+.ut-button-awesome-form
+  +ut-button-shape(round)
+  +ut-button-style(line, tint(#477DCA, 25%))
+  +ut-button-size(small)
+  margin: auto
+  display: block
+  i
+    padding-right: 0.25em
+
+//==========
+// Buttons
+
+.buttons-wrap
+  button
+    margin: 0.5em
+
+// Disabled
+.ut-button-disabled
+  +ut-button-style(flat, #1ABC9C)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+
+// Line
+.ut-button-line-black
+  +ut-button-style(line, #383838)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-aqua
+  +ut-button-style(line, #1ABC9C)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-blue
+  +ut-button-style(line, #3498DB)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-green
+  +ut-button-style(line, #2ECC71)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-orange
+  +ut-button-style(line, #F39C12)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-pink
+  +ut-button-style(line, $ut-color-pink)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-purple
+  +ut-button-style(line, #9B59B6)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-red
+  +ut-button-style(line, #E74C3C)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-line-yellow
+  +ut-button-style(line, #F1C40F)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+
+// Pill
+.ut-button-pill-black
+  +ut-button-style(flat, #383838)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-aqua
+  +ut-button-style(flat, #1ABC9C)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-blue
+  +ut-button-style(flat, #3498DB)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-green
+  +ut-button-style(flat, #2ECC71)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-orange
+  +ut-button-style(flat, #F39C12)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-pink
+  +ut-button-style(flat, $ut-color-pink)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-purple
+  +ut-button-style(flat, #9B59B6)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-red
+  +ut-button-style(flat, #E74C3C)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+.ut-button-pill-yellow
+  +ut-button-style(flat, #F1C40F)
+  +ut-button-shape(pill)
+  +ut-button-size(medium)
+
+// solid
+.ut-button-flat-black
+  +ut-button-style(flat, #383838)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-aqua
+  +ut-button-style(flat, #1ABC9C)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-blue
+  +ut-button-style(flat, #3498DB)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-green
+  +ut-button-style(flat, #2ECC71)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-orange
+  +ut-button-style(flat, #F39C12)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-pink
+  +ut-button-style(flat, $ut-color-pink)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-purple
+  +ut-button-style(flat, #9B59B6)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-red
+  +ut-button-style(flat, #E74C3C)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+.ut-button-flat-yellow
+  +ut-button-style(flat, #F1C40F)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+
+//===================
+// Modal
+
+.modals-button-wrap
+  button
+    margin: 0.5em
+
+.ut-trigger-1
+  +ut-button-shape(square)
+  +ut-button-style(flat, #1ABC9C)
+  +ut-button-size(small)
+  i
+    padding-right: 0.25em
+#modal-test
+  +ut-modal(#1ABC9C, center)
+  .ut-button-modal-close
+    +ut-button-shape(rounded)
+    +ut-button-style(flat, #E74C3C)
+    +ut-button-size(small)
+
+.ut-trigger-2
+  +ut-button-shape(square)
+  +ut-button-style(flat, #F1C40F)
+  +ut-button-size(small)
+  i
+    padding-right: 0.25em
+
+#modal-test2
+  +ut-modal(#F1C40F)
+  .ut-modal-body
+    text-align: center
+  .ut-button-modal-close
+    +ut-button-shape(pill)
+    +ut-button-style(flat, #E74C3C)
+    +ut-button-size(small)
+
+//===========
+// Flash messages
+
+.flash-messages-reload-wrap
+  text-align: center
+.ut-button-reload-flash
+  margin: 1em
+  +ut-button-style(line, #2ECC71)
+  +ut-button-shape(rounded)
+  +ut-button-size(medium)
+  i
+    margin-right: 0.5em
+
+.flash-hide-box
+  +ut-flash(tint(#477DCA, 25%))
+
+.flash-hide-alert
+  +ut-flash(alert)
+
+.flash-hide-error
+  +ut-flash(error)
+
+.flash-hide-info
+  +ut-flash(info)
+
+.flash-hide-success
+  +ut-flash(success)
+
+//=============
+// Lost grid stuff
+
+.lost-container
+  lost-utility: clearfix
+  background: lighten($ut-color-blue, 10%)
+  color: lighten($ut-font-color-base, 75%)
+  h1,h2,h3,h4,h5,h6
+    text-align: center
+    margin-top: 0
+    color: lighten($ut-font-color-base, 75%)
+
+.row-1
+  lost-utility: clearfix
+  padding: 0.5em
+  padding-bottom: 0
+  margin-bottom: $ut-margin-base
+  background: $ut-color-blue
+  div
+    lost-column: 1/4 0
+    background: darken($ut-color-blue, 15%)
+    height: 5em
+    lost-align: middle-center
+    margin-bottom: 1.5em
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+
+.row-2
+  lost-utility: clearfix
+  padding: 0.5em
+  padding-bottom: 0
+  margin-bottom: $ut-margin-base
+  background: $ut-color-blue
+  div
+    lost-column: 1/3 0
+    background: darken($ut-color-blue, 15%)
+    height: 5em
+    lost-align: middle-center
+    margin-bottom: 1.5em
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+
+.row-3
+  lost-utility: clearfix
+  padding: 0.5em
+  padding-bottom: 0
+  margin-bottom: $ut-margin-base
+  background: $ut-color-blue
+  div
+    lost-column: 2/3 0
+    background: darken($ut-color-blue, 15%)
+    height: 5em
+    lost-align: middle-center
+    margin-bottom: 1.5em
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+  div:last-child
+    lost-column: 1/3
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+
+.row-4
+  lost-utility: clearfix
+  padding: 0.5em
+  padding-bottom: 0
+  margin-bottom: $ut-margin-base
+  background: $ut-color-blue
+  div
+    lost-column: 1/4 0
+    background: darken($ut-color-blue, 15%)
+    height: 5em
+    lost-align: middle-center
+    margin-bottom: 1.5em
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+  div:last-child
+    lost-column: 3/4 0
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+.row-5
+  lost-utility: clearfix
+  padding: 0.5em
+  padding-bottom: 0
+  margin-bottom: $ut-margin-base
+  background: $ut-color-blue
+  div
+    lost-column: 1/2 0
+    background: darken($ut-color-blue, 15%)
+    height: 5em
+    lost-align: middle-center
+    margin-bottom: 1.5em
+    @media (max-width: 800px)
+      lost-column: 4/4 0
+
+// End lost grid stuff
+//======================

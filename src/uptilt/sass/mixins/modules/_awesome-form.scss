@@ -1,0 +1,70 @@
+@mixin awesome-form($form-color, $display: block) {
+
+  .input-group {
+
+    @if $display == block {
+      display: block;
+    } @else if $display == inline-block {
+      display: inline-block;
+      margin-right: 0.8em;
+    }
+
+    margin-bottom: 1.5em;
+    position: relative;
+
+    input {
+
+      @if $display == block {
+        display: block;
+        width: 100%;
+      } @else if $display == inline-block {
+        display: inline-block;
+      }
+
+      background: none;
+      border: solid 0.125em $form-color;
+      border-radius: 0;
+      box-shadow: none;
+      color: shade($form-color, 25%);
+      padding: 1em 0 0.25em;
+      font-size: 1rem;
+      width: 100%;
+
+      &:focus,
+      &:active {
+        outline: none;
+      }
+
+      &[type="text"],
+      &[type="email"],
+      &[type="password"] {
+        border: none;
+        border-bottom: solid 0.125em $form-color;
+      }
+
+      &:invalid {
+        box-shadow: none;
+        border: none;
+        border-bottom: solid 0.125em red !important;
+        color: red;
+        font-weight: bold;
+      }
+    }
+
+    label {
+      position: absolute;
+      top: 60%;
+      left: 0;
+      @include transform(translateY(-50%));
+      color: #999;
+      pointer-events: none;
+      @include transition;
+    }
+
+    input:focus + label,
+    input.has-value + label {
+      top: 0.25em;
+      font-size: 0.75rem;
+    }
+  }
+}
