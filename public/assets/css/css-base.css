@@ -354,6 +354,8 @@ select {
   .ut-button-awesome-form:active {
     color: #366dba;
     background-color: #759ed7; }
+  .ut-button-awesome-form else {
+    font-size: small; }
   .ut-button-awesome-form i {
     padding-right: 0.25em; }
 
@@ -375,6 +377,8 @@ select {
   .ut-button-disabled:active {
     color: #0f6b59;
     background-color: #1ABC9C; }
+  .ut-button-disabled else {
+    font-size: medium; }
 
 .ut-button-line-black {
   color: #383838;
@@ -392,6 +396,8 @@ select {
   .ut-button-line-black:active {
     color: #0a0a0a;
     background-color: #383838; }
+  .ut-button-line-black else {
+    font-size: medium; }
 
 .ut-button-line-aqua {
   color: #1ABC9C;
@@ -409,6 +415,8 @@ select {
   .ut-button-line-aqua:active {
     color: #0f6b59;
     background-color: #1ABC9C; }
+  .ut-button-line-aqua else {
+    font-size: medium; }
 
 .ut-button-line-blue {
   color: #3498DB;
@@ -426,6 +434,8 @@ select {
   .ut-button-line-blue:active {
     color: #1b6698;
     background-color: #3498DB; }
+  .ut-button-line-blue else {
+    font-size: medium; }
 
 .ut-button-line-green {
   color: #2ECC71;
@@ -443,6 +453,8 @@ select {
   .ut-button-line-green:active {
     color: #1d8148;
     background-color: #2ECC71; }
+  .ut-button-line-green else {
+    font-size: medium; }
 
 .ut-button-line-orange {
   color: #F39C12;
@@ -460,6 +472,8 @@ select {
   .ut-button-line-orange:active {
     color: #a16608;
     background-color: #F39C12; }
+  .ut-button-line-orange else {
+    font-size: medium; }
 
 .ut-button-line-pink {
   color: #EB5367;
@@ -477,6 +491,8 @@ select {
   .ut-button-line-pink:active {
     color: #cb182f;
     background-color: #EB5367; }
+  .ut-button-line-pink else {
+    font-size: medium; }
 
 .ut-button-line-purple {
   color: #9B59B6;
@@ -494,23 +510,27 @@ select {
   .ut-button-line-purple:active {
     color: #68377c;
     background-color: #9B59B6; }
+  .ut-button-line-purple else {
+    font-size: medium; }
 
 .ut-button-line-red {
-  color: #E74C3C;
+  color: #CC2B19;
   background: transparent;
-  border: 1px solid #E74C3C;
+  border: 1px solid #CC2B19;
   border-radius: 0;
   font-size: 1em;
   padding: 1em 2em; }
   .ut-button-line-red:visited {
-    color: #E74C3C; }
+    color: #CC2B19; }
   .ut-button-line-red:hover {
     color: #fff;
-    background-color: #f25b4b;
-    border: 1px solid #f25b4b; }
+    background-color: #ed2812;
+    border: 1px solid #ed2812; }
   .ut-button-line-red:active {
-    color: #b12416;
-    background-color: #E74C3C; }
+    color: #7a1a0f;
+    background-color: #CC2B19; }
+  .ut-button-line-red else {
+    font-size: medium; }
 
 .ut-button-line-yellow {
   color: #F1C40F;
@@ -528,6 +548,8 @@ select {
   .ut-button-line-yellow:active {
     color: #9b7e09;
     background-color: #F1C40F; }
+  .ut-button-line-yellow else {
+    font-size: medium; }
 
 .ut-button-pill-black {
   color: #fff;
@@ -544,6 +566,8 @@ select {
   .ut-button-pill-black:active {
     color: #0a0a0a;
     background-color: #383838; }
+  .ut-button-pill-black else {
+    font-size: medium; }
 
 .ut-button-pill-aqua {
   color: #fff;
@@ -560,6 +584,8 @@ select {
   .ut-button-pill-aqua:active {
     color: #0f6b59;
     background-color: #1ABC9C; }
+  .ut-button-pill-aqua else {
+    font-size: medium; }
 
 .ut-button-pill-blue {
   color: #fff;
@@ -576,6 +602,8 @@ select {
   .ut-button-pill-blue:active {
     color: #1b6698;
     background-color: #3498DB; }
+  .ut-button-pill-blue else {
+    font-size: medium; }
 
 .ut-button-pill-green {
   color: #fff;
@@ -592,6 +620,8 @@ select {
   .ut-button-pill-green:active {
     color: #1d8148;
     background-color: #2ECC71; }
+  .ut-button-pill-green else {
+    font-size: medium; }
 
 .ut-button-pill-orange {
   color: #fff;
@@ -608,6 +638,8 @@ select {
   .ut-button-pill-orange:active {
     color: #a16608;
     background-color: #F39C12; }
+  .ut-button-pill-orange else {
+    font-size: medium; }
 
 .ut-button-pill-pink {
   color: #fff;
@@ -624,6 +656,8 @@ select {
   .ut-button-pill-pink:active {
     color: #cb182f;
     background-color: #EB5367; }
+  .ut-button-pill-pink else {
+    font-size: medium; }
 
 .ut-button-pill-purple {
   color: #fff;
@@ -640,22 +674,26 @@ select {
   .ut-button-pill-purple:active {
     color: #68377c;
     background-color: #9B59B6; }
+  .ut-button-pill-purple else {
+    font-size: medium; }
 
 .ut-button-pill-red {
   color: #fff;
-  background-color: #E74C3C;
-  border: 1px solid #E74C3C;
+  background-color: #CC2B19;
+  border: 1px solid #CC2B19;
   border-radius: 100px;
   font-size: 1em;
   padding: 1em 2em; }
   .ut-button-pill-red:visited {
     color: #fff; }
   .ut-button-pill-red:hover {
-    background-color: #f25b4b;
-    border: 1px solid #f25b4b; }
+    background-color: #ed2812;
+    border: 1px solid #ed2812; }
   .ut-button-pill-red:active {
-    color: #b12416;
-    background-color: #E74C3C; }
+    color: #7a1a0f;
+    background-color: #CC2B19; }
+  .ut-button-pill-red else {
+    font-size: medium; }
 
 .ut-button-pill-yellow {
   color: #fff;
@@ -672,6 +710,8 @@ select {
   .ut-button-pill-yellow:active {
     color: #9b7e09;
     background-color: #F1C40F; }
+  .ut-button-pill-yellow else {
+    font-size: medium; }
 
 .ut-button-flat-black {
   color: #fff;
@@ -688,6 +728,8 @@ select {
   .ut-button-flat-black:active {
     color: #0a0a0a;
     background-color: #383838; }
+  .ut-button-flat-black else {
+    font-size: medium; }
 
 .ut-button-flat-aqua {
   color: #fff;
@@ -704,6 +746,8 @@ select {
   .ut-button-flat-aqua:active {
     color: #0f6b59;
     background-color: #1ABC9C; }
+  .ut-button-flat-aqua else {
+    font-size: medium; }
 
 .ut-button-flat-blue {
   color: #fff;
@@ -720,6 +764,8 @@ select {
   .ut-button-flat-blue:active {
     color: #1b6698;
     background-color: #3498DB; }
+  .ut-button-flat-blue else {
+    font-size: medium; }
 
 .ut-button-flat-green {
   color: #fff;
@@ -736,6 +782,8 @@ select {
   .ut-button-flat-green:active {
     color: #1d8148;
     background-color: #2ECC71; }
+  .ut-button-flat-green else {
+    font-size: medium; }
 
 .ut-button-flat-orange {
   color: #fff;
@@ -752,6 +800,8 @@ select {
   .ut-button-flat-orange:active {
     color: #a16608;
     background-color: #F39C12; }
+  .ut-button-flat-orange else {
+    font-size: medium; }
 
 .ut-button-flat-pink {
   color: #fff;
@@ -768,6 +818,8 @@ select {
   .ut-button-flat-pink:active {
     color: #cb182f;
     background-color: #EB5367; }
+  .ut-button-flat-pink else {
+    font-size: medium; }
 
 .ut-button-flat-purple {
   color: #fff;
@@ -784,22 +836,26 @@ select {
   .ut-button-flat-purple:active {
     color: #68377c;
     background-color: #9B59B6; }
+  .ut-button-flat-purple else {
+    font-size: medium; }
 
 .ut-button-flat-red {
   color: #fff;
-  background-color: #E74C3C;
-  border: 1px solid #E74C3C;
+  background-color: #CC2B19;
+  border: 1px solid #CC2B19;
   border-radius: 0;
   font-size: 1em;
   padding: 1em 2em; }
   .ut-button-flat-red:visited {
     color: #fff; }
   .ut-button-flat-red:hover {
-    background-color: #f25b4b;
-    border: 1px solid #f25b4b; }
+    background-color: #ed2812;
+    border: 1px solid #ed2812; }
   .ut-button-flat-red:active {
-    color: #b12416;
-    background-color: #E74C3C; }
+    color: #7a1a0f;
+    background-color: #CC2B19; }
+  .ut-button-flat-red else {
+    font-size: medium; }
 
 .ut-button-flat-yellow {
   color: #fff;
@@ -816,6 +872,8 @@ select {
   .ut-button-flat-yellow:active {
     color: #9b7e09;
     background-color: #F1C40F; }
+  .ut-button-flat-yellow else {
+    font-size: medium; }
 
 .modals-button-wrap button {
   margin: 0.5em; }
@@ -835,6 +893,8 @@ select {
   .ut-trigger-1:active {
     color: #0f6b59;
     background-color: #1ABC9C; }
+  .ut-trigger-1 else {
+    font-size: small; }
   .ut-trigger-1 i {
     padding-right: 0.25em; }
 
@@ -907,6 +967,8 @@ select {
     #modal-test .ut-button-modal-close:active {
       color: #b12416;
       background-color: #E74C3C; }
+    #modal-test .ut-button-modal-close else {
+      font-size: small; }
 
 .ut-trigger-2 {
   border-radius: 0px;
@@ -923,6 +985,8 @@ select {
   .ut-trigger-2:active {
     color: #9b7e09;
     background-color: #F1C40F; }
+  .ut-trigger-2 else {
+    font-size: small; }
   .ut-trigger-2 i {
     padding-right: 0.25em; }
 
@@ -997,6 +1061,8 @@ select {
     #modal-test2 .ut-button-modal-close:active {
       color: #b12416;
       background-color: #E74C3C; }
+    #modal-test2 .ut-button-modal-close else {
+      font-size: small; }
 
 .flash-messages-reload-wrap {
   text-align: center; }
@@ -1018,6 +1084,8 @@ select {
   .ut-button-reload-flash:active {
     color: #1d8148;
     background-color: #2ECC71; }
+  .ut-button-reload-flash else {
+    font-size: medium; }
   .ut-button-reload-flash i {
     margin-right: 0.5em; }
 
