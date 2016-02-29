@@ -170,6 +170,8 @@ $lightness-threshold-line: 98%;
 	}
 	@else if $size == large {
 		font-size: 1.25em;
+	} else {
+		font-size: $size;
 	}
 	@include padding($paddingV $paddingH);
 }
